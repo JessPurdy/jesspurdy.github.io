@@ -33,6 +33,19 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	margin:0px 10px 0px 10px;
+	background-color: grey
+}
+
+.nav {font-family:helvetica;
+	background-color:blue;
+      border:1px solid #ccc;
+      border-top:4px solid #999;
+
+  }
+
+h1
+{margin-top:18px;
 }
 ol, ul {
 	list-style: none;
