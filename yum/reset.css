@@ -51,66 +51,26 @@ table {
 }
 
 
-/* END RESET */
+/* Center Content */
 
-<style>
-
-
-h1 {
-	font-family: helvetica;
-	font-weight: bold;
-	line-height:1.1em;
+.centered { 
+  margin:0 auto;
+  width:960px;
 }
 
-h1 {
-	font-family: helvetica;
-	font-weight: bolder;
-	font-size: 14pt;
-	line-height:1.1em;
+
+/* Clearfix */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
 }
-
-h2 {
-	font-family: helvetica;
-	font-size: 9pt;
-	color: purple;
-	font-weight: bold;
-	line-height:1.4em;
-	padding-top: 3px;
-}
-
-img {
-	float:left;
-	height: 50%;
-	width: 50%;
-	padding: 14px;
-	padding-top: 3px;
-	padding-left: 0px;
-}
-
-p {
-	font-family:times;
-	font-size: 10pt;
-	line-height: 1.2em;
-	padding-top: 1.2em;
-}
-
-#main-content {
-	float:left;
-	min-width: 10%;
-	max-width: 43%;
-	padding: 5%;
-	padding-right: 1%;
-
-}
-
-#side-content {
-	float:right;	
-	min-width: 10%;
-	max-width: 43%;
-	padding: 5%;
-	padding-left: 1%;
-}
-
-</style>
+ 
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
 
 
