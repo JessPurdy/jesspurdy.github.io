@@ -1,11 +1,7 @@
-
-
-/* Meyer Reset */
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -33,47 +29,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	margin:0px 10px 0px 10px;
-	background-color: grey
-}
-
-.nav {font-family:helvetica;
-	background-color:blue;
-      border:1px solid #ccc;
-      border-top:4px solid #999;
-      border-width:1px 0;
-      border-color:black;
-      list-style:none;
-      margin:0;
-      padding:0;
-      text-align:center;
-
-
-  }
-
-  #main-content {
-	float:left;
-	min-width: 10%;
-	max-width: 43%;
-	padding: 5%;
-	padding-right: 1%;
-
-}
-
-#side-content {
-	float:right;	
-	min-width: 10%;
-	max-width: 43%;
-	padding: 5%;
-	padding-left: 1%;
-}
-
-.clear{
-	clear:both;
-	float:none;
-}
-h1
-{margin-top:18px;
 }
 ol, ul {
 	list-style: none;
@@ -92,26 +47,72 @@ table {
 }
 
 
-/* Center Content */
 
-.centered { 
-  margin:0 auto;
-  width:960px;
-}
+/*END RESET*/
 
+/*START MY CSS*/
 
-/* Clearfix */
 .clearfix:after {
-	content: ".";
-	display: block;
-	clear: both;
-	visibility: hidden;
-	line-height: 0;
-	height: 0;
+  content: "";
+  display: table;
+  clear: both;
 }
- 
-.clearfix { display: inline-block; }
-html[xmlns] .clearfix { display: block; }
-* html .clearfix { height: 1%; }
+
+.article-dog {
+	float:left;
+	width:400px;
+	margin:5px 10px 0 0;
+}
+
+.article-cat {
+	float:left;
+	width:400px;
+	margin:5px 0 0 10px;
+}
+
+#main-container {
+	width:960px;
+	margin:0px auto;
+	vertical-align: center;
+}
+#title-block{
+	vertical-align: center;
+	text-align: center;
+
+}
+
+#top-nav {
+	border-top:2px solid #000;
+	border-bottom:2px solid #000;
+	list-style:none;
+}
+
+#top-nav ul {
+	text-align: center;
+	list-style:none;
+	font-family: helvetica;
+	font-size: 15px;
+}
+
+#top-nav ul li{
+	float:left;
+	margin:10px;
+	text-align: center;
+	width:auto;
+	list-style:none;
+
+}
+h3{font-weight:bolder;
+	font-size:15px;
+	font-family:helvetica;
+	padding:0px;
+	padding-top:10px;
+	margin:0px;
+	font-color:blue;
 
 
+	}
+p {font-size: 13.3px;
+	font-family:garamond;
+
+}
