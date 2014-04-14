@@ -50,3 +50,136 @@ table {
 	border-spacing: 0;
 }
 
+<style>
+
+body {
+	
+	margin:0 auto;
+}
+
+#site-wrapper {
+	margin:0px 0px 0px 0px;
+
+
+
+}
+
+#top-nav{ 
+	position:absolute;
+	right:15px;
+	width:150px;
+	height:20px;
+	background-color:white;}
+
+
+#site-header {
+	position:relative;
+	height:120px;
+	background-color:#d4e0a3;
+	width:100%;}
+
+
+#menu-wrapper { 
+	margin:0px 0px 0px 0px;
+
+}
+
+#main-menu {
+	position:relative;
+	height:55px;
+	background-color:#4f3a11;
+	padding-left: 140px;
+
+}
+#main-menu li a:link{
+	float:left;
+	margin-left: 0px;
+	display:block;
+	padding:10px;
+	margin:10px 0px 5px 15px;
+	text-decoration: none;
+	list-style: none;
+	color:white;
+	font-family: helvetica;
+	text-align:center;
+}
+
+#content-wrapper{
+	position:relative;
+	margin:0px 0px 0px 0px;
+
+}
+
+#content{
+	position:relative;
+	margin:0px 0px 0px 140px;
+
+}
+
+#page {
+	float:left; 
+	width:40%;
+	margin:20px 15px;
+	padding:10px;
+
+}
+#page h1 { 
+	font-family: helvetica;
+	font-weight: bolder;
+	text-transform:uppercase;
+	padding-bottom: 10px;
+	padding-top: 50px
+	}
+
+#sidebar{
+	float:right;
+	width:30%;
+	margin-top:20px;
+	padding:10px;
+	margin: 0px 0px 0px 0px;
+	padding-top: 100px;
+
+}
+
+#foot-wrapper{
+
+}
+
+#site-footer{
+	clear:both;
+	position:relative;
+
+	height:55px;
+	background-color:#4f3a11;
+
+}
+
+#footer-contact{
+	background-color:white;
+	float:left;
+	width:120px;
+	margin:15px 155px 0px 0px;
+
+}
+
+
+
+#footer-follow{
+	float:right;
+	display:block;
+	padding:5px 0px;
+	margin: 15px 220px;
+
+}
+
+#footer-follow li {
+	float:left;
+	display: block;
+	padding:5px;
+	margin:5px;
+}
+
+
+
+
+</style>
