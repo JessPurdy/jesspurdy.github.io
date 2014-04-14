@@ -78,6 +78,21 @@ body {
 	background-color:#d4e0a3;
 	width:100%;}
 
+#site-header h1 {position:absolute;
+				display:block;
+				width:350px;
+				height:120px;
+				left:165px;}
+
+#site-header h1 a {position:absolute;
+			display:block;
+			width:350px;
+			height:120px;
+			left:0px;
+			background:url('image/logo.png') no-repeat top left;
+			left-indent: -9999px;
+		}
+
 
 #menu-wrapper { 
 	margin:0px 0px 0px 0px;
