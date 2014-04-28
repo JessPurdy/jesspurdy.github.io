@@ -50,6 +50,15 @@ table {
 
 
 /* Add Styles Here for Home Page */
+#resume img{
+	
+	display:block;
+	position: center;
+	width:60%;
+	padding-left:100px;
+
+	
+}
 
 #nav {position:fixed;
 	background-color:white;
@@ -118,15 +127,7 @@ table {
     margin-left: auto;
     margin-right: auto;}
 
-#resume img{
-	
-	display:block;
-	position: center;
-	width:60%;
-	padding-left:100px;
 
-	
-}
 
 
 .group:after {
