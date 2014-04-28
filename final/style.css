@@ -50,8 +50,10 @@ table {
 
 
 /* Add Styles Here for Home Page */
-#resume img{
-	
+ #resume 
+ div {height: 100%}
+
+ img{
 	display:block;
 	position: center;
 	width:60%;
