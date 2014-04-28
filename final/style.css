@@ -51,13 +51,14 @@ table {
 
 /* Add Styles Here for Home Page */
  #resume 
- div {height: 100%}
+
 
  img{
 	display:block;
 	position: center;
 	width:60%;
 	padding-left:100px;
+	height:100%;
 
 	
 }
