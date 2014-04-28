@@ -118,6 +118,17 @@ table {
     margin-left: auto;
     margin-right: auto;}
 
+#resume img{
+	width: 100px;
+	display:block;
+	position: center;
+	padding-left:100px;
+	padding:1%;
+	width:100%;
+	height:100px;
+	
+}
+
 
 .group:after {
   content: "";
