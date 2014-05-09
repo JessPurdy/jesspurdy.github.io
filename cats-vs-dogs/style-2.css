@@ -93,7 +93,7 @@ table {
   clear: both;
   visibility:hidden;
   line-height:0;
-  hight:0;
+  height:0;
 }
 .clearfix { display: inline-block; }
 html[xmlns] .clearfix { display: block; }
