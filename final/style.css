@@ -52,7 +52,15 @@ table {
 /* Add Styles Here for Home Page */
 
 /* Navigation starts here. */
+#logo img
+{position: fixed;
+	width:50%;
+margin:0px 300px}
 
+#logo2 img {
+	
+		width:50%;
+margin:0px 300px}
 
 #header-container{
 
@@ -64,14 +72,15 @@ table {
 
 #header-container img 
 {width:50%;
+	background-attachment:absolute;
 
 margin:0px 300px}
 
 #top-nav{
-	top:360px; 
-	background-color:black;
 	position:fixed;
-	z-index:5;
+	top:165px; 
+	background-color:black;
+	
 	height:30px;
 	width:100%;
 	padding-top:20px;
@@ -87,6 +96,18 @@ text-decoration: none;
 	font-weight: 300; 
 	font-size: .9em;}
 
+
+.me  {
+	margin-left: 470px;
+	margin-bottom: 20px;
+	width:300px;
+	text-align: center;
+	color:gray;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300; 
+	font-size: .9em;
+	margin-top:0px; 
+	text-decoration: none;}
 
 
 .about {
@@ -120,23 +141,7 @@ text-decoration: none;
 	padding-top:20px;
 }
 
-#main-content {
-	float:left;
-	min-width: 10%;
-	max-width: 43%;
-	padding: 5%;
-	padding-right: 1%;
 
-}
-
-#side-content {
-	top:700px;
-	float:right;	
-	min-width: 10%;
-	max-width: 43%;
-	padding: 5%;
-	padding-left: 1%;
-}
 
 
 
@@ -155,11 +160,100 @@ text-decoration: none;
   line-height:0;
   height:0;
 
+}
+/*projects*/
+
+.half img{background-position:fixed;
+	position:fixed;
+	padding-right: 20em;
+}
+
+.space{
+	margin-top: 10px;
+	padding-top: 10px;
+}
+	
+}
+
+
+#designsec {
+
+	background-color: purple;
+	background-color:transparent;
+	background-color:transparent;
+
+
+	float: left;
+	width: 90%;
+	
+	
+	
+	
+}
+
+#projectbox1 {
+	float:left;
+	width: 20%;
+	min-width: 20px;
+	max-width: 20%;
+	padding: 5%;
+	padding-right: 0%;
+	margin-left: 17em;
+	margin-right: 0em;
+	text-align: center;
+
+}
+
+#side-content {
+	top:700px;
+	float:right;	
+	min-width: 10%;
+	max-width: 43%;
+	padding: 5%;
+	padding-left: 1%;
+}
+
+#projectbox2 {
+
+	float:left;
+	width: 20%;
+	min-width: 20px;
+	max-width: 20%;
+	padding: 5%;
+	padding-right: 0%;
+	margin-left: 0em;
+	margin-right: 0em;
+	text-align: center;
+}
+
+#projectbox1 h2 {
+	 color:gray;
+
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300; 
+	font-size: .9em;
+	margin-top:4px; }
+
+#projectbox2 h2 {
+	 color:gray;
+
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300; 
+	font-size: .9em;
+margin-top:4px;}
+	
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /* Resume css*/
 
-#resume{
+#resume img{
 
-	width:60%;
+
+	min-width:20px;
 	padding-left:100px;
-	height:100%;}	
+	}	
